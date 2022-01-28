@@ -41,4 +41,8 @@ defmodule Calculator3000Test do
     end
   end
 
+  test "derivation" do
+    function = fn x -> x ** 2 end
+    assert Calculator3000.derive(function, 3) == 6.0
+  end
 end

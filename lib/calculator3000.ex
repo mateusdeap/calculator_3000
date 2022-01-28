@@ -54,4 +54,21 @@ defmodule Calculator3000 do
     |> Float.round(1)
   end
 
+  @doc """
+  Derivation.
+
+  This will calculate the derivative of a function f(x) at a
+  certain value a according to the formula:
+
+  f'(a) = lim(f(a + h) - f(a) / h), with h -> 0
+
+  For Calculator3000 I picked h = 0.000000000001. Why? Yes.
+  """
+  def derive(function, value) do
+    h = 0.000000000001
+    numerator = function.(value + h) - function.(value)
+    denominator = h
+    numerator / denominator
+    |> Float.round(1)
+  end
 end

@@ -1,21 +1,13 @@
 # Calculator3000
 
-**TODO: Add description**
+A very not ambitious project. Just wanted to test if I could learn how test in Elixir and make something of my own.
+
+Maybe I'll add more functionality. If I do, I'll start by adding implementations of common math functions and see where I'll go from there
+
+## Dependencies
+
+This project requires Elixir 1.13 or later
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `calculator_3000` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:calculator_3000, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/calculator_3000>.
-
+Simply clone the repo or download it, run `mix deps.get` and Bob's your uncle
